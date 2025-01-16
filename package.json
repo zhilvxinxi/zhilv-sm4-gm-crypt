@@ -1,0 +1,32 @@
+{
+  "name": "zhilv-sm4-gm-crypt",
+  "version": "1.0.0",
+  "description": "智旅信息前端 sm4 加密库",
+  "main": "dist/zhilv-sm4-gm-crypt.cjs.js",
+  "module": "dist/zhilv-sm4-gm-crypt.esm.js",
+  "browser": "dist/zhilv-sm4-gm-crypt.umd.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src",
+    "dist/*.js"
+  ],
+  "author": "wangxucheng",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^22.10.7",
+    "rollup": "^4.30.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "base64-js": "^1.5.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
