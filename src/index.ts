@@ -6,7 +6,7 @@ import SM4 from "sm4";
  * @param pwd 需要加密的数据例如 密码之类的
  * @param key 加密的 key
  * */
-export function gmcryptSm4(pwd: string, key: string) {
+export function gmcryptSm4(pwd: string, key: string):string {
     const md5Data = md5(key);
     let sm4Config = {
         key: md5Data.substring(md5Data.length - 16),

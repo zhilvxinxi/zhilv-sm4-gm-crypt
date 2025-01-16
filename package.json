@@ -1,6 +1,6 @@
 {
   "name": "zhilv-sm4-gm-crypt",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "智旅信息前端 sm4 加密库",
   "main": "dist/zhilv-sm4-gm-crypt.cjs.js",
   "module": "dist/zhilv-sm4-gm-crypt.esm.js",
